@@ -1,13 +1,17 @@
-.app4 .circle{
-    border:1px solid red;
-    width: 25vw;
-    height: 25vw;
-    border-radius: 50%;
+.app4 .circle {
+  border: 1px solid red;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
 }
 @keyframes change {
-    0%{background:blue;}
-    100%{background:red;}
+  0% {
+    background: blue;
+  }
+  100% {
+    background: red;
+  }
 }
-.app4 .circle.active{
-    animation:1s change linear infinite alternate;
+.app4 .circle.active {
+  animation: 1s change linear infinite alternate;
 }

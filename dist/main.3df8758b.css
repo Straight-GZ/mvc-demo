@@ -45,32 +45,36 @@ body > .page > section {
 }
 
 
-.app3 .square{
-    border: 1px solid black;
-    width: 10vw;
-    height: 10vw;
-    margin-left: 10vw;
-    margin-top: 10vw;
-    transition: transform 1s;
+.app3 .square {
+  border: 1px solid black;
+  width: 5vw;
+  height: 5vw;
+  margin-left: 5vw;
+  margin-top: 5vw;
+  transition: transform 1s;
 }
 
-.app3 .square.active{
-    transform: translateX(15vw);
+.app3 .square.active {
+  transform: translateX(15vw);
 }
 
-.app4 .circle{
-    border:1px solid red;
-    width: 25vw;
-    height: 25vw;
-    border-radius: 50%;
+.app4 .circle {
+  border: 1px solid red;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
 }
 @keyframes change {
-    0%{background:blue;}
-    100%{background:red;}
+  0% {
+    background: blue;
+  }
+  100% {
+    background: red;
+  }
 }
-.app4 .circle.active{
-    animation:1s change linear infinite alternate;
+.app4 .circle.active {
+  animation: 1s change linear infinite alternate;
 }
 
 
-/*# sourceMappingURL=main.1d529b13.css.map */
+/*# sourceMappingURL=main.3df8758b.css.map */
